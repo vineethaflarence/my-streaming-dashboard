@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Hide all scrollbars */
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+}
+/* app/globals.css */
+
+/* Custom Geist fonts */
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/Geist-Mono.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply Geist globally */
+body {
+  font-family: 'Geist', sans-serif;
+}
+
+/* Tailwind line clamp helpers */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+

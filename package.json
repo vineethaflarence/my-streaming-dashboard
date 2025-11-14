@@ -1,0 +1,26 @@
+{
+  "name": "my-streaming-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "framer-motion": "^12.23.24",
+    "next": "^16.0.3",
+    "react": "18",
+    "react-dom": "18",
+    "tailwindcss": "^4.1.17",
+    "undici": "^7.16.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.4",
+    "typescript": "^5.3.2"
+  }
+}
